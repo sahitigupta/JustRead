@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">JustRead</string>
+    <string name="login">Login</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="new_user_register_here">New user? Register here</string>
+    <string name="signup">Signup</string>
+    <string name="full_name">Full name</string>
+    <string name="phone">Phone</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="add_a_book">Add a Book</string>
+    <string name="have_an_account_login_here">Have an account? Login here</string>
+    <string name="books_on_your_shelf">Books on your shelf</string>
+    <string name="view_your_books">View Your Books</string>
+    <string name="signout">Signout</string>
+    <string name="book_category">Book category</string>
+    <string name="book_author">Book author</string>
+    <string name="book_name">Book name</string>
+    <string name="have_you_read_the_book">Have you read the book?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="add">add</string>
+    <string name="change_password">Reset Password</string>
+</resources>

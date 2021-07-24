@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:fillViewport="true" >
+
+    <LinearLayout
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/background"
+        android:padding="10dp"
+        tools:context=".BookActivities.AddBooksActivity">
+
+        <ImageView
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:background="@drawable/addbook"
+            android:layout_gravity="center"
+            android:layout_marginTop="50dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/add_a_book"
+            android:textSize="30dp"
+            android:layout_margin = "30dp"
+            android:textColor="@color/black"
+            android:layout_gravity="center"
+            android:gravity="center" />
+
+        <EditText
+            android:id="@+id/add_bookname_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/book_name" />
+
+        <EditText
+            android:id="@+id/add_bookauthor_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/book_author" />
+
+        <EditText
+            android:id="@+id/add_bookcategory_et"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:hint="@string/book_category" />
+
+        <RadioGroup
+            android:id="@+id/add_bookread_rg"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:backgroundTint="@color/button"
+            android:layout_margin="10dp" >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/have_you_read_the_book"
+                android:textColor="@color/black"
+                android:layout_marginHorizontal="10dp" />
+            <RadioButton
+                android:id="@+id/add_bookread_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes"
+                android:textSize="15dp"
+                android:layout_marginHorizontal="10dp" />
+
+            <RadioButton
+                android:id="@+id/add_booknotread_rb"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no"
+                android:textSize="15dp"
+                android:layout_marginHorizontal="10dp" />
+
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/add_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:backgroundTint="@color/button"
+            android:text="@string/add" />
+
+    </LinearLayout>
+
+</ScrollView>

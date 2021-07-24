@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.justread">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/justreadicon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/justreadicon"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.JustRead">
+        <activity android:name=".UserActivities.PasswordChangeActivity"></activity>
+        <activity android:name=".BookActivities.ListBooksActivity" />
+        <activity android:name=".BookActivities.HomeActivity" />
+        <activity android:name=".BookActivities.AddBooksActivity" />
+        <activity android:name=".UserActivities.SigningActivity" />
+        <activity android:name=".UserActivities.LoginActivity" />
+        <activity android:name=".UserActivities.SignupActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
